@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Res\ico.png">
+  <title>Support System for dargline operators</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">Dragline Operators Support System</h1>
+  <div class="videos-container">
+    <div class="centered-container">
+    <a href="livecam.html" class="video-card">
+      <img src="Res\vidicon.png" alt="title">
+      <h3>Live Tracking</h3>
+    </a>
+      <a href="VRDragline.html" class="video-card">
+        <img src="Res\ARico.jpg" alt="title">
+        <h3>Simulation Training</h3>
+      </a>
+      <a href="VRDragline.html" class="video-card">
+        <img src="Res\guidance.png" alt="title">
+        <h3>Guidance System</h3>
+      </a>
+   
+      <h1 class="bottomtag">Incognito</h1>
+    </div>
+  </div>
+  <script type="module">
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD24i3JDHiRHjusQ13w4lbjFMFDqmLpLKU",
+  authDomain: "dragline-operator-support-sys.firebaseapp.com",
+  projectId: "dragline-operator-support-sys",
+  storageBucket: "dragline-operator-support-sys.appspot.com",
+  messagingSenderId: "103073439344",
+  appId: "1:103073439344:web:50bc33fa9c1c4fd432deb5",
+  measurementId: "G-4EP83JEDJV"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+  </script>
+  <script src="Script.js"></script>
+</body>
+</html>
